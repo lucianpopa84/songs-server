@@ -26,6 +26,7 @@ Here you will learn how to load data from a mock server
 - To start the songs server, type `npm run start`
 - use fetch API to load the songs
 - after adding a song, the music top must refresh and display the new song in the list
+- documentation for my-json-server here: https://www.npmjs.com/package/json-server
 - style the page for desktop and mobile viewing, making it responsive (use the inspector to test the look on mobile devices)
 - if you need to upload images to your repo, place them all inside the images folder
 - use English everywhere (page, variables naming, comments, commit messages)
