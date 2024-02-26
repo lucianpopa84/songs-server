@@ -19,13 +19,13 @@ Here you will learn how to load data from a mock server
 ## Requirements
 
 - Create a Music Top webpage which contains:
-    - three inputs, one for Artist, one for Song Name and the last for Album 
-    - an Add Song button under the inputs, which makes a request to the local server to add the song with details specified in the input
-    - the list of songs stored on the local server (my-json-server) - see the songs already existing in db.json and adopt this format for adding new songs or displaying them
+    - A new song form with three inputs, one for Artist, one for Song Name and the last for Album 
+    - an Add Song button under the form, which makes a request to the local server to add the song with details specified in the inputs
+    - the list of songs - stored on the local server (my-json-server) - see the songs already existing in `db.json` and use this format for adding new songs or displaying them. Sort the songs by votes (high to low)
 - Install necessary packages using `npm install`
 - To start the songs server, type `npm run start`
 - use fetch API to load the songs
-- after adding a song, the music top must refresh and display the new song in the list
+- after adding a song, the music top must display the new song in the list. Do not re-fetch the songs, just add the new song in the song list container, using `insertAdjacentHTML("beforeend", songHtmlText)` https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
 - documentation for my-json-server here: https://www.npmjs.com/package/json-server
 - style the page for desktop and mobile viewing, making it responsive (use the inspector to test the look on mobile devices)
 - if you need to upload images to your repo, place them all inside the images folder
