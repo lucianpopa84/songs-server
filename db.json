@@ -1,0 +1,22 @@
+{
+  "songs": [
+    {
+      "artist": "Dua Lipa",
+      "name": "Levitating",
+      "votes": 13,
+      "album": "Album A"
+    },
+    {
+      "artist": "The Weeknd",
+      "name": "Blinding Lights",
+      "votes": 2,
+      "album": "Album A"
+    },
+    {
+      "artist": "Taylor Swift",
+      "name": "Willow",
+      "votes": 143,
+      "album": "Album B"
+    }
+  ]
+}
