@@ -19,9 +19,9 @@ Here you will learn how to load data from a mock server
 ## Requirements
 
 - Create a Music Top webpage which contains:
-    a. three inputs, one for Artist, one for Song Name and the last for Album 
-    b. an Add Song button under the inputs, which makes a request to the local server to add the song with details specified in the input
-    c. the list of songs stored on the local server (my-json-server) - see the songs already existing in db.json and adopt this format for adding new songs or displaying them
+    - three inputs, one for Artist, one for Song Name and the last for Album 
+    - an Add Song button under the inputs, which makes a request to the local server to add the song with details specified in the input
+    - the list of songs stored on the local server (my-json-server) - see the songs already existing in db.json and adopt this format for adding new songs or displaying them
 - Install necessary packages using `npm install`
 - To start the songs server, type `npm run start`
 - use fetch API to load the songs
